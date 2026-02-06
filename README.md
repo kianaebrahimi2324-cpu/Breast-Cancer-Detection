@@ -11,3 +11,14 @@ Using a Convolutional Neural Network (CNN) built with TensorFlow/Keras, the mode
 The dataset consists of histopathology images sourced from the [MachineLearnia Public Data](https://github.com/MachineLearnia/breast_cancer_public_data).
 * The script automatically clones the dataset inside the notebook.
 
+## 📊 Results
+- Accuracy: **87%**
+- Cancer Recall: **79%**
+- F1-score (Cancer): **0.86**
+
+The model shows stable training behavior with no significant overfitting.
+
+## 🚀 Future Improvements
+- Class weighting to improve cancer recall
+- Fine-tuning upper VGG16 layers
+- Threshold optimization for medical sensitivity
